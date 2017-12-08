@@ -57,3 +57,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Graphql to replace REST
 gem 'graphql', '1.7.4'
 gem 'graphiql-rails', '1.4.4', group: :development
+
+# Added to encrypt and verify user passwords via has_secure_password
+gem 'bcrypt', '~> 3.1.7'
