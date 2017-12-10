@@ -58,5 +58,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'graphql', '1.7.4'
 gem 'graphiql-rails', '1.4.4', group: :development
 
+# Filtering gems
+gem 'search_object', '1.2.0'
+gem 'search_object_graphql', '0.1'
+
 # Added to encrypt and verify user passwords via has_secure_password
 gem 'bcrypt', '~> 3.1.7'
